@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"> 
-    <title>Driver</title>
+    <title>Patient Portal</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-    
+
+   
     <!--HEADER CONTENT STARTS HERE-->
     <header>
     <nav class="navbar-style navbar navbar-expand-sm">
@@ -20,50 +21,29 @@
         <div class="justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav-links navbar-nav">
                 <li class="nav-item"><a href="index.html">HOME</a></li>
-                <li class="nav-item"><a href="patient.html">PATIENT</a></li>
+                <li class="nav-item"><a href="patient.html" style="color:white;">PATIENT</a></li>
                 <li class="nav-item"><a href="doctor.html">DOCTOR</a></li>
                 <li class="nav-item"><a href="pharmacy.html">PHARMACY</a></li>
-                <li class="nav-item"><a href="driver.html" style="color:white;">DRIVER</a></li>
+                <li class="nav-item"><a href="driver.html">DRIVER</a></li>
             </ul>
         </div>
     </nav>
     </header>
+    <!--END OF HEADER-->
 
     <div class="big-container">
-    <div class="container">
-    <div class="left-side">
-        <div class="profile">
-            <img src="image/profile.jpeg" width="100px" height="100px" class="rounded-circle">
-        </div>
-        <div class="patient-info">
-            <ul>
-                <li><b>Driver Name:</b> Yogesh Koirala</li>
-                <li><b>Date of Birth:</b> 01/01/2001</li>
-                <li><b>Driver's Address:</b> Cambridge, MA</li>
-            </ul>
-        </div>
-    </div>    
-    <div class="right-side">
-        <div class="appointments">
-            <div class="appointments-title">
-                Latest Delivery
-            </div>
-            <div class="appointments-body">
-                <ul>
-                    <li>Prescription #: Cambridge, MA</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="medications">
-            <div class="medications-title">
-               Remaining Deliveries 
-            </div>
-            <div class="medications-body">
-            5
-            </div>
-        </div>
+    <div class="small-container justify-content-center">
+    <form action="#">
+    <div class="feeling-prompt">
+        Hello! How Are You Feeling Today?
     </div>
+    <div>
+    <input class="feeling-prompt-box" type="text" placeholder="I'm having a headache in the lower regions" required>
+    </div>
+    <div>
+    <input class="submit-btn justify-content-center" type="submit" value="submit" required>
+    </div>
+    </form>
     </div>
     </div>
 
