@@ -10,7 +10,7 @@
       "noFallthroughCasesInSwitch": true,
       "forceConsistentCasingInFileNames": true,
       "noImplicitOverride": true,
-      "noPropertyAccessFromIndexSignature": true,
+      "noPropertyAccessFromIndexSignature": false,
       "noUncheckedIndexedAccess": true,
       
       "target": "ES2021",
